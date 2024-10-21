@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#legend{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    margin-top: 30px;
+}
+
+#tooltip{
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(53, 151, 184);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: none;
+    opacity: .90;
+}
